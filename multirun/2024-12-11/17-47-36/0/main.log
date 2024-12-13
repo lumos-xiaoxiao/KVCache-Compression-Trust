@@ -1,0 +1,8 @@
+[2024-12-11 17:47:39,171][accelerate.utils.modeling][INFO] - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+[2024-12-11 17:47:43,918][sqlitedict][INFO] - opening Sqlite table 'unnamed' in './.cache/tmp8nbtjmeb/huggingface.sqlite'
+[2024-12-11 17:48:00,580][sqlitedict][INFO] - opening Sqlite table 'unnamed' in './.cache/tmp8nbtjmeb/huggingface.sqlite'
+[2024-12-11 17:48:24,991][sqlitedict][INFO] - opening Sqlite table 'unnamed' in './.cache/tmp8nbtjmeb/huggingface.sqlite'
+[2024-12-11 17:48:31,811][sqlitedict][INFO] - opening Sqlite table 'unnamed' in './.cache/tmp8nbtjmeb/huggingface.sqlite'
+[2024-12-11 17:48:48,605][sqlitedict][INFO] - opening Sqlite table 'unnamed' in './.cache/tmp8nbtjmeb/huggingface.sqlite'
+[2024-12-11 17:49:14,682][sqlitedict][INFO] - opening Sqlite table 'unnamed' in './.cache/tmp8nbtjmeb/huggingface.sqlite'
+[2024-12-11 17:49:59,448][sqlitedict][INFO] - opening Sqlite table 'unnamed' in './.cache/tmp8nbtjmeb/huggingface.sqlite'

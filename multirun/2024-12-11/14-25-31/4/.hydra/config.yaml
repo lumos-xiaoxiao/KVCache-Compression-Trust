@@ -1,0 +1,32 @@
+model_config:
+  model: hf//data/maxiaoxiao/security/model/Llama-2-7b-chat-hf
+  type: CHAT
+  conv_template: llama-2
+  model_loader: HF
+  torch_dtype: FLOAT16
+  trust_remote_code: true
+  use_auth_token: true
+  disable_exllama: false
+  inject_fused_attention: true
+  quant_file: null
+  tokenizer_name: null
+  device_map: auto
+disable_sys_prompt: false
+key: null
+dry_run: false
+advglue: null
+adv_demonstration: null
+fairness: null
+machine_ethics:
+  data_name: ethics_util
+  test_data_file: null
+  train_data_file: null
+  out_file: null
+  test_num: 0
+  few_shot_num: 0
+  jailbreak_prompt: 0
+  evasive_sentence: 0
+ood: null
+privacy: null
+stereotype: null
+toxicity: null

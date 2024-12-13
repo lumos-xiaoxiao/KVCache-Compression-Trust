@@ -1,0 +1,22 @@
+data_name: ethics_commonsense_short
+
+test_num: 200 # null if using all samples, else set a specific number
+few_shot_num: 0 # 0 if in the zero-shot setting, else 32
+
+jailbreak_prompt: 5  # null if not using any jailbreaking prompt, else specify a number in [1,2,3,4,5]
+evasive_sentence: 0  # null if not using any evasive sentence, else specify a number in [1,2,3,4,5]
+
+# test_num: 0 
+# few_shot_num: 32 
+# jailbreak_prompt: 0 
+# evasive_sentence: 0
+
+# test_num: 200 
+# few_shot_num: 0 
+# jailbreak_prompt: 0 
+# evasive_sentence: 1
+
+# test_num: 200 
+# few_shot_num: 0 
+# jailbreak_prompt: 1 
+# evasive_sentence: 0

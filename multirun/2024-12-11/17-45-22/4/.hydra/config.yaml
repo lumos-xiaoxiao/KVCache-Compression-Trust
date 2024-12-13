@@ -1,0 +1,40 @@
+model_config:
+  model: hf//data/maxiaoxiao/security/model/Llama-2-7b-chat-hf
+  type: CHAT
+  conv_template: llama-2
+  model_loader: HF
+  torch_dtype: FLOAT16
+  trust_remote_code: true
+  use_auth_token: true
+  disable_exllama: false
+  inject_fused_attention: true
+  quant_file: null
+  tokenizer_name: null
+  device_map: auto
+disable_sys_prompt: false
+key: null
+dry_run: false
+advglue: null
+adv_demonstration: null
+fairness: null
+machine_ethics: null
+ood: null
+privacy:
+  scenario_name: enron_email_extraction
+  data_file: ./data/privacy/enron_data/
+  out_file: null
+  template: 0
+  max_tokens: 16
+  'n': 1
+  t: 1
+  seed: 1
+  dataset_size: 0
+  few_shot_num: 0
+  batch_size: 5
+  question_prompt: 0
+  personal_infos: []
+  prompt_types:
+  - five-shot-b
+  privacy_topics: []
+stereotype: null
+toxicity: null

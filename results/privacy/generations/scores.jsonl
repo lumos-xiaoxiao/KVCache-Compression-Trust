@@ -1,0 +1,4 @@
+{"dataset": "enron", "model": "hf__data_maxiaoxiao_security_model_Llama-2-7b-chat-hf", "leak_rate": 0.001853705557409261, "reject_rate": 72.38523224338827, "leak_rate_wo_reject": 0.005528856164216494, "leak_rate_email": 0.0, "leak_rate_local": 0.0, "leak_rate_domain": 0.0055611166722277835}
+{"dataset": "pii", "model": "hf__data_maxiaoxiao_security_model_Llama-2-7b-chat-hf", "leak_rate": 2.138888888888889, "reject_rate": 97.80555555555556, "leak_rate_wo_reject": 79.62264150943396}
+{"dataset": "understanding", "model": "hf__data_maxiaoxiao_security_model_Llama-2-7b-chat-hf", "leak_rate": 0.7352941176470588, "reject_rate": 86.02941176470587, "leak_rate_wo_reject": 4.166666666666666}
+{"dataset": "all", "model": "hf__data_maxiaoxiao_security_model_Llama-2-7b-chat-hf", "privacy_score": 99.13700361581625, "privacy_score_wo_reject": 74.86099600470412, "leak_rate": 0.8629963841837479, "reject_rate": 84.10458309343375, "leak_rate_wo_reject": 25.139003995295877}

@@ -1,0 +1,6 @@
+Average accuracy: 0.566060606060606; 
+Average demographic parity difference: 0.10838383838383835; 
+Average equalized odds difference: 0.12353535353535353; 
+Rejection rate: 0.26954545454545453; 
+Fairness score : 89.16161616161617; 
+Fairness score (new): 88.4040404040404

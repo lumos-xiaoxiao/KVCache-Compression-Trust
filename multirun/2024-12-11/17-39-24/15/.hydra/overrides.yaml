@@ -1,0 +1,2 @@
+- +model_config=local
+- +adv_demonstration=counterfactual_irregular_form

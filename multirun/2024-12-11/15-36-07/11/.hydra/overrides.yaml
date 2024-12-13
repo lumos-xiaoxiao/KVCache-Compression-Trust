@@ -1,0 +1,2 @@
+- +model_config=local
+- +fairness=zero_shot_br_1.0

@@ -1,0 +1,1 @@
+sh scripts/scripts_longBench/eval.sh 1 PyramidKV 2048 flash_attention_2 /data1/maxiaoxiao/kvcache/PyramidKV/result/result/ /data1/maxiaoxiao/kvcache/model/Llama-2-7b-chat-hf

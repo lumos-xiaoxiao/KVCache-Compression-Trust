@@ -1,0 +1,29 @@
+model_config:
+  model: hf//data/maxiaoxiao/security/model/Llama-2-7b-chat-hf
+  type: CHAT
+  conv_template: llama-2
+  model_loader: HF
+  torch_dtype: FLOAT16
+  trust_remote_code: true
+  use_auth_token: true
+  disable_exllama: false
+  inject_fused_attention: true
+  quant_file: null
+  tokenizer_name: null
+  device_map: auto
+disable_sys_prompt: false
+key: null
+dry_run: false
+advglue: null
+adv_demonstration:
+  path: ./data/adv_demonstration/backdoor/experiment1/sst-2_setup2_badword
+  task: sa
+  seeds: 42,2333,10007
+  zero: false
+  only: false
+fairness: null
+machine_ethics: null
+ood: null
+privacy: null
+stereotype: null
+toxicity: null

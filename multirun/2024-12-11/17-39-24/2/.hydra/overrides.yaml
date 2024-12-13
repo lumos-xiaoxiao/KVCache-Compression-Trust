@@ -1,0 +1,2 @@
+- +model_config=local
+- +adv_demonstration=backdoor_exp1_addsent_setup3

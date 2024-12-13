@@ -1,0 +1,2 @@
+- +model_config=local
+- +adv_demonstration=backdoor_exp1_badword_setup2

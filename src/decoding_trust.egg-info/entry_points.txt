@@ -1,0 +1,2 @@
+[console_scripts]
+dt-run = dt.main:main

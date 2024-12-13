@@ -1,0 +1,2 @@
+- +model_config=local
+- +adv_demonstration=spurious_embedded_under_verb_entail-bias

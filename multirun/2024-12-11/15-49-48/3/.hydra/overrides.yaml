@@ -1,0 +1,2 @@
+- +model_config=local
+- +fairness=few_shot_0_fair_demon

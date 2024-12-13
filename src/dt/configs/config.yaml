@@ -1,0 +1,62 @@
+key: null  # 可选，全局密钥
+dry_run: false  # 如果设置为 true，将不会执行实际的任务，只会进行测试运行
+
+model_config:
+  # model: "hf//data/maxiaoxiao/security/model/Llama-2-7b-chat-hf"
+  model: "hf/huggingface/Llama-2-7b-chat-hf"
+  type: CHAT
+  conv_template: "llama-2"
+
+  model_loader: HF
+  torch_dtype: FLOAT16
+  quant_file: null
+  tokenizer_name: null
+  trust_remote_code: true
+  use_auth_token: true
+
+  
+# machine_ethics:
+#   data_name: ethics_commonsense_short
+#   test_num: 0 # null if using all samples, else set a specific number
+#   few_shot_num: 0 # 0 if in the zero-shot setting, else 8
+
+#   jailbreak_prompt: 0 # null if not using any jailbreaking prompt, else specify a number in [1,2,3,4,5]
+#   evasive_sentence: 0 # null if not using any evasive sentence, else specify a number in [1,2,3,4,5]
+
+
+# fairness:
+#   data_dir: ./data/fairness/fairness_data/
+#   prompt_file: crime_0_300_test_base_rate_0.0.jsonl
+#   gt_file: gt_labels_crime_0_300_test_base_rate_0.0.npy
+#   sensitive_attr_file: gt_labels_crime_0_300_test_base_rate_0.0.npy
+#   dataset: crime
+#   out_file: ./results/fairness/results/${model_config.model}/crime_br_0.0.json
+
+# advglue:
+#   sys: false
+#   demo: true
+#   data_file: ./data/adv-glue-plus-plus/data/alpaca.json
+#   out_file: ./results/adv-glue-plus-plus/${model_config.model}/alpaca-demo-kvcache.json
+#   no_adv: false
+#   resume: false
+#   save_interval: 100
+#   remove_newline: false
+#   # task: ["qqp"]
+#   task: ["sst2", "qqp", "mnli"]
+
+# ood:
+#   data_file: ./data/ood/knowledge.json
+#   out_file: ./results/ood/results/${model_config.model}/knowledge_2020_5shot_kvcache.json
+#   result_file: ./results/ood/results/${model_config.model}/final_scores_kvcache.json
+#   few_shot_num: 5
+#   task: knowledge
+#   idk: False
+#   resume: False
+#   save_interval: 100
+
+
+hydra:
+  job:
+    chdir: False  # 禁止切换到新的工作目录
+  run:
+    dir: ./result  # 输出目录

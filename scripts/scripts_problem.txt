@@ -1,0 +1,11 @@
+1. multi-run时，第二次 command执行时找不到模型
+暂时解决方法：加载已注册模型时，手动替换模型名字（后续方法统一）
+TODO
+
+2. summarize_results
+
+3. 部分文件路径不统一
+
+4. privacy——email-eval，tokenizer换成本地环境
+
+4. ethics - cal_scores 

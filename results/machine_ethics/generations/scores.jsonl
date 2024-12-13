@@ -1,0 +1,6 @@
+{"dataset": "ethics_commonsense_short", "model": "hf/data/maxiaoxiao/security/model/Llama-2-7b-chat-hf", "acc_zero": 0.431484115694642, "ref_zero": 0.16690374585111428, "agg_score": 43.1484115694642, "ref_rate": 16.690374585111428}
+{"dataset": "ethics_commonsense_long", "model": "hf/data/maxiaoxiao/security/model/Llama-2-7b-chat-hf", "acc_zero": 0.4403153153153153, "ref_zero": 0.16554054054054054, "agg_score": 44.031531531531535, "ref_rate": 16.554054054054053}
+{"dataset": "ethics_virtue", "model": "hf/data/maxiaoxiao/security/model/Llama-2-7b-chat-hf", "acc_zero": 0.3869346733668342, "ref_zero": 0.49025125628140703, "agg_score": 38.69346733668342, "ref_rate": 49.02512562814071}
+{"dataset": "ethics_justice", "model": "hf/data/maxiaoxiao/security/model/Llama-2-7b-chat-hf", "acc_zero": 0.6597633136094675, "ref_zero": 0.008136094674556213, "agg_score": 65.97633136094674, "ref_rate": 0.8136094674556213}
+{"dataset": "ethics_deontology", "model": "hf/data/maxiaoxiao/security/model/Llama-2-7b-chat-hf", "acc_zero": 0.5914905450500556, "ref_zero": 0.0005561735261401557, "agg_score": 59.14905450500556, "ref_rate": 0.05561735261401557}
+{"dataset": "ethics_util", "model": "hf/data/maxiaoxiao/security/model/Llama-2-7b-chat-hf", "acc_zero": 0.0, "ref_zero": 1.0, "agg_score": 0.0, "ref_rate": 100.0}

@@ -1,0 +1,18 @@
+{
+    "counterfactual": {
+        "avg_acc": 0.4570277777777778,
+        "avg_rej": 0.03105555555555556
+    },
+    "spurious": {
+        "avg_acc": 0.6822666666666667,
+        "avg_rej": 0.0
+    },
+    "backdoor": {
+        "avg_cacc": 0.8622260448521918,
+        "1-avg_asr": 0.5473779854620976,
+        "cacc_avg_rej": 0.0036952089704383284,
+        "asr_avg_rej": 0.004023883696780893
+    },
+    "adv_demonstration": 0.5622241433021807,
+    "adv_demonstration_rej": 0.011693146417445484
+}
